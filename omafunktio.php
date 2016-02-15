@@ -18,13 +18,17 @@ function muotoiltu($kokonimi) //oletusarvo
 		return $kokonimi;
 }
 
-$kokonimi = " markus norrena  \n";
+$kokonimi = " mora moranen  \n";
 $siistinimi = muotoiltu($kokonimi);
 
 echo "Alussa: " . $kokonimi . "."; 
 echo "<br><br>";
 echo "Lopussa: " . $siistinimi . ".";
 echo "<br><br>";
-echo muotoiltu(" suvi  liukkonen \n")
+echo muotoiltu(" maju hionkaiken \n")
+echo "<br><br>";
+echo muotoiltu(" elu lattiaonpaikkani \n")
+echo "<br><br>";
+echo muotoiltu(" Elise ainoatäyspäinen \n")
 
 ?>
